@@ -1,0 +1,15 @@
+#navbar {
+  background-image: linear-gradient(to bottom right, rgb(201, 84, 6), yellow);
+}
+
+#nav {
+  color: black;
+  font-weight: bold;
+  padding:10px  10px 10px 10px;
+}
+
+#nav:hover {
+  background-color: black;
+  color: yellow;
+  transition-duration: .3s;
+}
