@@ -19,3 +19,15 @@
   height: 87vh;
 
 }
+
+#nametitle{
+  font-size:70px;
+  font-weight: bolder;
+}
+/* aboutpage */
+#aboutimg{
+  background-image: url(https://tse4.mm.bing.net/th/id/OIP.I4xv_6dX1VlWG0yDdrSgOgHaG_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
