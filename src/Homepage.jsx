@@ -47,6 +47,43 @@ function Homepage() {
     </div>
 
    </div>
+
+   {/* Education section */}
+
+   <div className='container-fluid pt-4'>
+    <div className="row p-3">
+      <div className="col-md-5 d-flex  justify-content-center align-items-center">
+        <h1 id='nametitle'>Education</h1>
+
+
+      </div>
+      <div className="col-md-7 d-flex flex-column justify-content-center align-items-center">
+        <div><h3 className='mt-2'>jshdjhajsjda</h3>
+        <h4>shdjas</h4>
+        <h3>sjdaksjkdak</h3></div>
+         <div><h3 className='mt-2'>jshdjhajsjda</h3>
+        <h4>shdjas</h4>
+        <h3>sjdaksjkdak</h3></div>
+
+        
+      </div>
+    </div>
+   </div>
+
+   {/* skills */}
+   <div>
+    <h1 id='nametitle' className='text-center'> Skills</h1>
+    <div className='mt-lg-5 mt-3'>
+      <div className="row">
+        <div className="col-3">
+          
+        </div>
+        <div className="col-3"></div>
+        <div className="col-3"></div>
+        <div className="col-3"></div>
+      </div>
+    </div>
+   </div>
    </>
   )
 }
