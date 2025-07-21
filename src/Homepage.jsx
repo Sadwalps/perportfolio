@@ -1,9 +1,12 @@
 import { faBootstrap, faCss3Alt, faGithub, faHtml5, faJs, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faLink, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import Carousel from 'react-bootstrap/Carousel';
 
 function Homepage() {
+
+
   return (
     <>
       <div id='homepage' className='d-flex justify-content-center align-items-center p-2'>
@@ -201,6 +204,63 @@ function Homepage() {
           shjdjahsdas
         </div>
       </div>
+
+      {/* Projects */}
+      <div className='container-fluid pt-4'>
+        <div className="row">
+          <div className="col-md-2"></div>
+          <div className="col-md-8 m-3">
+            <Carousel data-bs-theme="dark">
+              <Carousel.Item>
+               <div>
+                <div className="row">
+                  <div className="col-md-2"></div>
+                  <div className="col-md-8">
+                    <div><img src="https://tse2.mm.bing.net/th/id/OIP.miHtRry8du7aaQACz9U3mwHaE8?r=0&w=3699&h=2466&rs=1&pid=ImgDetMain&o=7&rm=3" className='w-100' alt="" /></div>
+                    <div className='d-flex justify-content-between '>
+                      <button className='btn btn-primary'>Live Link <FontAwesomeIcon icon={faLink} className='ms-2' /></button>
+                      <button className='btn btn-primary'>Git Hub <FontAwesomeIcon icon={faGithub} className='ms-2' /></button>
+                    </div>
+                  </div>
+                  <div className="col-md-2"></div>
+                </div>
+               </div>
+                
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="holder.js/800x400?text=Second slide&bg=eee"
+                  alt="Second slide"
+                />
+                <Carousel.Caption>
+                  <h5>Second slide label</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+                  alt="Third slide"
+                />
+                <Carousel.Caption>
+                  <h5>Third slide label</h5>
+                  <p>
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                  </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+
+
+
+          </div>
+          <div className="col-md-2"></div>
+        </div>
+      </div>
+
+
     </>
   )
 }
