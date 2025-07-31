@@ -35,7 +35,7 @@
 
 /* skills */
 .skillsbox {
-  background-color: yellow;
+  background-image: linear-gradient(to right bottom, rgb(255, 162, 0), yellow);
   font-size: 100px;
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@
 }
 
 .skillsbox:hover {
-  background-color: rgba(48, 48, 44, 0.838);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0), rgba(0, 0, 0, 0.66));
   transition-duration: .2s;
 }
 
@@ -62,11 +62,14 @@
 .skillsbox:hover .skillhoverbox {
   display: block;
   color: yellow;
-   transition-duration: .2s;
+  transition-duration: .2s;
 }
 
-.smallscreendiv{
+.smallscreendiv {
   margin-top: 10px;
   color: yellow;
-  
+
 }
+
+/* projects  */
+
