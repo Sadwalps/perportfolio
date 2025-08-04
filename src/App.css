@@ -76,6 +76,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
   padding: 40px 0px 40px 0px;
+  background-image: linear-gradient(to right bottom, rgb(255, 162, 0), yellow);
+  border-radius: 2%;
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 20px;
 }
+.projectcategorydiv:hover{
+  color: yellow;
+  background-image: linear-gradient(to right bottom,rgba(0, 0, 0), rgba(0, 0, 0, 0.66) );
+  border-radius: 2%;
+  box-shadow: 0px 0px 20px yellow;
+  transition-duration: .3s;
+}
+

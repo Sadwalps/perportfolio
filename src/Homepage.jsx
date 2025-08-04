@@ -6,6 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { Link } from 'react-router-dom';
 
 function Homepage() {
 
@@ -212,29 +213,35 @@ function Homepage() {
       </div>
 
 
-{/* projects */}
-<div className='container-fluid'>
-  <div className="row">
-    <div className="col-md-2"></div>
-    <div className="col-md-8 ">
-      <div className="row">
-        <div className="col-md-5 px-lg-1 px-5">
-          <div className='projectcategorydiv'>
-        Mini Projects
-      </div>
-      
-        </div>
-        <div className="col-md-2"></div>
-        <div className="col-md-5 px-lg-1 px-5"> <div className='projectcategorydiv' >
-        Main Projects
-      </div></div>
-      </div>
+      {/* projects */}
+      <div className='container-fluid'>
+        <h1 id='nametitle' className='text-center mt-lg-5 mt-4 mb-lg-5 mb-4'> Projects</h1>
+        <div className="row">
+          <div className="col-md-2"></div>
+          <div className="col-md-8 ">
+            <div className="row">
+              <div className="col-md-5 px-lg-1 px-5 ">
+                <Link to={'miniprojects'} className='text-dark' style={{ textDecoration: "none" }}>
+                  <div className='projectcategorydiv'>
+                    Mini Projects
+                  </div>
+                </Link>
+              </div>
+              <div className="col-md-2"></div>
+              <div className="col-md-5 px-lg-1 px-5">
+                <Link to={'mainprojects'} className='text-dark' style={{ textDecoration: "none" }}>
+                  <div className='projectcategorydiv' >
+                    Main Projects
+                  </div>
+                </Link>
+                </div>
+            </div>
 
-      
-    </div>
-    <div className="col-md-2"></div>
-  </div>
-</div>
+
+          </div>
+          <div className="col-md-2"></div>
+        </div>
+      </div>
 
 
       {/* Projects */}
@@ -256,7 +263,7 @@ function Homepage() {
                   <div className="col-md-2"></div>
                   <div className="col-md-8">
                     <div>
-                      <button className='btn btn-primary w-100'onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
+                      <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
                       {/* modal for displaying technologies used */}
                       <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
                         <Modal.Header closeButton>
@@ -274,7 +281,7 @@ function Homepage() {
                               <li>asdas</li>
                             </ol>
                           </div>
-                        </Modal.Body>     
+                        </Modal.Body>
                       </Modal>
                     </div>
                     {/* image */}
@@ -312,7 +319,7 @@ function Homepage() {
                   <div className="col-md-2"></div>
                   <div className="col-md-8">
                     <div>
-                      <button className='btn btn-primary w-100'onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
+                      <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
                       {/* modal for displaying technologies used */}
                       <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
                         <Modal.Header closeButton>
@@ -330,7 +337,7 @@ function Homepage() {
                               <li>asdas</li>
                             </ol>
                           </div>
-                        </Modal.Body>     
+                        </Modal.Body>
                       </Modal>
                     </div>
                     {/* image */}
