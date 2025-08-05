@@ -4,6 +4,7 @@ import Header from './Header'
 import Homepage from './Homepage'
 import Miniproject from './Miniproject'
 import Mainproject from './Mainproject'
+import Footer from './Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/miniprojects' element={<Miniproject/>}/>
         <Route path='/mainprojects' element={<Mainproject/>}/>
       </Routes>
+    <Footer/>
     </>
   )
 }

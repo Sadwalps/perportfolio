@@ -16,7 +16,7 @@
 
 /* homepage */
 #homepage {
-  height: 87vh;
+  height: 89vh;
 
 }
 
@@ -89,5 +89,15 @@
   border-radius: 2%;
   box-shadow: 0px 0px 20px yellow;
   transition-duration: .3s;
+}
+
+/* footer */
+#footername{
+  color: black;
+  font-weight: bold;
+}
+
+#footermaindiv{
+  background-image: linear-gradient(to bottom right, rgb(201, 84, 6), yellow);
 }
 

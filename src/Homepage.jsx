@@ -38,7 +38,7 @@ function Homepage() {
       </div>
 
       {/* about section */}
-      <div className='container-fluid'>
+      <div className='container-fluid' id='about'>
         <div className="row">
           <div id='aboutimg' className="col-4">
 
@@ -81,7 +81,7 @@ function Homepage() {
       </div>
 
       {/* skills */}
-      <div>
+      <div id='skills'>
         <h1 id='nametitle' className='text-center'> Skills</h1>
         <div className='mt-lg-5 mt-3 container-fluid'>
           <div className="row">
@@ -214,7 +214,7 @@ function Homepage() {
 
 
       {/* projects */}
-      <div className='container-fluid'>
+      <div className='container-fluid mb-5' id='projects'>
         <h1 id='nametitle' className='text-center mt-lg-5 mt-4 mb-lg-5 mb-4'> Projects</h1>
         <div className="row">
           <div className="col-md-2"></div>
@@ -237,135 +237,13 @@ function Homepage() {
                 </div>
             </div>
 
-
           </div>
           <div className="col-md-2"></div>
         </div>
       </div>
 
 
-      {/* Projects */}
-      <div className='container-fluid pt-4'>
-        <div className="row">
-          <div className="col-md-2"></div>
-          <div className="col-md-8 m-3 ">
-
-          </div>
-          <div className="col-md-2"></div>
-        </div>
-        <Carousel data-bs-theme="dark">
-          <Carousel.Item>
-
-            <div className="row">
-              <div className="col-md-2"></div>
-              <div className="col-md-8 ">
-                <div className="row">
-                  <div className="col-md-2"></div>
-                  <div className="col-md-8">
-                    <div>
-                      <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                      {/* modal for displaying technologies used */}
-                      <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
-                        <Modal.Header closeButton>
-                          <div className='w-100 d-flex justify-content-center '>
-                            <h2>Technologies Used</h2>
-                          </div>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <div className='w-100 d-flex justify-content-center '>
-                            <ol>
-                              <li>skldas</li>
-                              <li>asda</li>
-                              <li>asd</li>
-                              <li>sadas</li>
-                              <li>asdas</li>
-                            </ol>
-                          </div>
-                        </Modal.Body>
-                      </Modal>
-                    </div>
-                    {/* image */}
-                    <div className='d-flex flex-column  justify-content-center align-items-center'>
-                      <div>
-                        <img src="https://tse4.mm.bing.net/th/id/OIP.zixQ-o0CqpYn6axFf5zSngHaE8?r=0&w=1920&h=1280&rs=1&pid=ImgDetMain&o=7&rm=3" alt="" className='w-100' />
-                      </div>
-                    </div>
-                    {/* buttons */}
-                    <div className=' d-flex justify-content-between '>
-                      <button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                      <button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button>
-                    </div>
-                  </div>
-                  <div className="col-md-2"></div>
-                </div>
-
-
-
-              </div>
-              <div className="col-md-2"></div>
-            </div>
-
-
-          </Carousel.Item>
-
-
-
-          <Carousel.Item>
-
-            <div className="row">
-              <div className="col-md-2"></div>
-              <div className="col-md-8 ">
-                <div className="row">
-                  <div className="col-md-2"></div>
-                  <div className="col-md-8">
-                    <div>
-                      <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                      {/* modal for displaying technologies used */}
-                      <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
-                        <Modal.Header closeButton>
-                          <div className='w-100 d-flex justify-content-center '>
-                            <h2>Technologies Used</h2>
-                          </div>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <div className='w-100 d-flex justify-content-center '>
-                            <ol>
-                              <li>skldas</li>
-                              <li>asda</li>
-                              <li>asd</li>
-                              <li>sadas</li>
-                              <li>asdas</li>
-                            </ol>
-                          </div>
-                        </Modal.Body>
-                      </Modal>
-                    </div>
-                    {/* image */}
-                    <div className='d-flex flex-column  justify-content-center align-items-center'>
-                      <div>
-                        <img src="https://images.wallpapersden.com/image/download/2018-ford-gt-67-heritage-edition_am5lam2UmZqaraWkpJRpZW5rrWhlbWc.jpg" alt="" className='w-100' />
-                      </div>
-                    </div>
-                    {/* buttons */}
-                    <div className=' d-flex justify-content-between '>
-                      <button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                      <button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button>
-                    </div>
-                  </div>
-                  <div className="col-md-2"></div>
-                </div>
-
-
-
-              </div>
-              <div className="col-md-2"></div>
-            </div>
-
-
-          </Carousel.Item>
-
-        </Carousel>
-      </div>
+     
 
 
     </>
