@@ -17,12 +17,14 @@
 /* homepage */
 #homepage {
   height: 89vh;
+  background-image: linear-gradient(to bottom right, black, rgba(0, 0, 0, 0.793));
 
 }
 
 #nametitle {
   font-size: 70px;
   font-weight: bolder;
+  color: gold;
 }
 
 /* aboutpage */
@@ -31,6 +33,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
+}
+
+#about{
+   background-image: linear-gradient(to bottom right, rgb(15, 3, 3), rgba(0, 0, 0, 0.793));
 }
 
 /* skills */
@@ -70,8 +76,14 @@
   color: yellow;
 
 }
+#skills{
+   background-image: linear-gradient(to right bottom, rgb(22, 10, 3), rgba(0, 0, 0, 0.66));
+}
 
 /* projects  */
+#projects{
+  background-image: linear-gradient(to right bottom, rgb(8, 3, 22), rgba(0, 0, 0, 0.66));
+}
 .projectcategorydiv{
   display: flex;
   justify-content: center;
@@ -100,4 +112,16 @@
 #footermaindiv{
   background-image: linear-gradient(to bottom right, rgb(201, 84, 6), yellow);
 }
+
+/* media queries */
+/* homepage */
+
+@media screen and (max-width:456px){
+  #nametitle {
+  font-size: 50px;
+  font-weight: bolder;
+  color: gold;
+}
+}
+
 

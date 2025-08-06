@@ -24,11 +24,11 @@ function Homepage() {
               <div className='w-100 rounded'><img src="https://th.bing.com/th/id/R.743da4010483966718352b50a77e4875?rik=AuKunWb6vuCbTA&riu=http%3a%2f%2fwww.zastavki.com%2fpictures%2foriginals%2f2017Auto___Lamborghini_Yellow_fast_car_Lamborghini_Aventador_Novitec_Torado_LP_750-4_117619_.jpg&ehk=42rlkbN1o4VYXZGvHslvexX5IDSXY7eCctEzdiIloXc%3d&risl=&pid=ImgRaw&r=0" alt="" className='w-100 rounded' /></div>
             </div>
             <div className="col-md-4 ps-5">
-              <h2>My Portfolio</h2>
+              <h2 className='text-light mt-lg-1 mt-4'>My Portfolio</h2>
               <h1 id='nametitle'>SADWAL P.S</h1>
-              <div><FontAwesomeIcon icon={faPhone} className='me-2' />9207281049</div>
-              <div className='mt-2'><FontAwesomeIcon icon={faEnvelope} className='me-2' />9207281049</div>
-              <div className='mt-2'><FontAwesomeIcon icon={faGithub} className='me-2' />9207281049</div>
+              <div className='text-light'><FontAwesomeIcon icon={faPhone} className='me-2' />9207281049</div>
+              <div className='mt-2 text-light'><FontAwesomeIcon icon={faEnvelope} className='me-2' />sadwalps2255@gmail.com</div>
+              <div className='mt-2 text-light'><FontAwesomeIcon icon={faGithub} className='me-2' />9207281049</div>
             </div>
             <div className="col-md-2"></div>
           </div>
@@ -38,7 +38,8 @@ function Homepage() {
       </div>
 
       {/* about section */}
-      <div className='container-fluid' id='about'>
+      <div  id='about'>
+      <div className='container-fluid'>
         <div className="row">
           <div id='aboutimg' className="col-4">
 
@@ -79,11 +80,12 @@ function Homepage() {
           </div>
         </div>
       </div>
+      </div>
 
       {/* skills */}
       <div id='skills'>
-        <h1 id='nametitle' className='text-center'> Skills</h1>
-        <div className='mt-lg-5 mt-3 container-fluid'>
+        <h1 id='nametitle' className='text-center pt-lg-5 pt-4 pb-lg-5 pb-4'> Skills</h1>
+        <div className='mt-lg-5 mt-3 pb-lg-5 pb-3 container-fluid'>
           <div className="row">
             <div className="col-md-1"></div>
             <div className="col-md-10">
@@ -214,8 +216,8 @@ function Homepage() {
 
 
       {/* projects */}
-      <div className='container-fluid mb-5' id='projects'>
-        <h1 id='nametitle' className='text-center mt-lg-5 mt-4 mb-lg-5 mb-4'> Projects</h1>
+      <div className='container-fluid pb-5' id='projects'>
+        <h1 id='nametitle' className='text-center pt-lg-5 pt-4 pb-lg-5 pb-4'> Projects</h1>
         <div className="row">
           <div className="col-md-2"></div>
           <div className="col-md-8 ">
