@@ -21,14 +21,13 @@ function Homepage() {
           <div className="row">
             <div className="col-md-2"></div>
             <div className="col-md-4">
-              <div className='w-100 rounded'><img src="https://th.bing.com/th/id/R.743da4010483966718352b50a77e4875?rik=AuKunWb6vuCbTA&riu=http%3a%2f%2fwww.zastavki.com%2fpictures%2foriginals%2f2017Auto___Lamborghini_Yellow_fast_car_Lamborghini_Aventador_Novitec_Torado_LP_750-4_117619_.jpg&ehk=42rlkbN1o4VYXZGvHslvexX5IDSXY7eCctEzdiIloXc%3d&risl=&pid=ImgRaw&r=0" alt="" className='w-100 rounded' /></div>
+              <div className='w-100  rounded'><img src="https://th.bing.com/th/id/R.743da4010483966718352b50a77e4875?rik=AuKunWb6vuCbTA&riu=http%3a%2f%2fwww.zastavki.com%2fpictures%2foriginals%2f2017Auto___Lamborghini_Yellow_fast_car_Lamborghini_Aventador_Novitec_Torado_LP_750-4_117619_.jpg&ehk=42rlkbN1o4VYXZGvHslvexX5IDSXY7eCctEzdiIloXc%3d&risl=&pid=ImgRaw&r=0" alt="" className='w-100 rounded' /></div>
             </div>
             <div className="col-md-4 ps-5">
               <h2 className='text-light mt-lg-1 mt-4'>My Portfolio</h2>
               <h1 id='nametitle'>SADWAL P.S</h1>
               <div className='text-light'><FontAwesomeIcon icon={faPhone} className='me-2' />9207281049</div>
               <div className='mt-2 text-light'><FontAwesomeIcon icon={faEnvelope} className='me-2' />sadwalps2255@gmail.com</div>
-              <div className='mt-2 text-light'><FontAwesomeIcon icon={faGithub} className='me-2' />9207281049</div>
             </div>
             <div className="col-md-2"></div>
           </div>
@@ -38,53 +37,43 @@ function Homepage() {
       </div>
 
       {/* about section */}
-      <div  id='about'>
-      <div className='container-fluid'>
-        <div className="row">
-          <div id='aboutimg' className="col-4">
-
-          </div>
-          <div className='col-1'>
-
-          </div>
-          <div className="col-7 d-flex flex-column">
-            <div className='mt-5  border border-2 border-primary w-75 ' style={{ height: "40px", float: "right", borderRadius: "20px 0px 0px 20px" }}>
+      <div id='about'>
+        <div className='container-fluid'>
+          <div className="row">
+            <div className="col-md-4" id='aboutleftdiv'>
+              <h1 id='nametitle'>SADWAL P.S</h1>
             </div>
-            <div>
-              <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, delectus excepturi quisquam repellat ut dolorum nostrum quae illum repellendus odit, error voluptatem minus voluptatibus ex quas accusamus facilis dolores. Sequi corporis deleniti aspernatur consectetur officiis facere asperiores voluptate maiores ea?</p>
+            <div className='col-md-1'>
             </div>
+            <div className="col-md-7 d-flex flex-column">
+              <div className='mt-5  border border-2 border-primary w-75 ' style={{ height: "40px", float: "right", borderRadius: "20px 0px 0px 20px" }}>
+              </div>
+              <div>
+                <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, delectus excepturi quisquam repellat ut dolorum nostrum quae illum repellendus odit, error voluptatem minus voluptatibus ex quas accusamus facilis dolores. Sequi corporis deleniti aspernatur consectetur officiis facere asperiores voluptate maiores ea?</p>
+              </div>
 
+              {/* Education section */}
+
+              <div className='container-fluid pt-4 d-flex flex-column justify-content-center align-items-center '>
+                <h1 id='nametitle'>Education</h1>
+                <div><h3 className='mt-2'>jshdjhajsjda</h3>
+                  <h4>shdjas</h4>
+                  <h3>sjdaksjkdak</h3></div>
+                <div><h3 className='mt-2'>jshdjhajsjda</h3>
+                  <h4>shdjas</h4>
+                  <h3>sjdaksjkdak</h3></div>
+              </div>
+            </div>
           </div>
+
         </div>
 
-      </div>
 
-      {/* Education section */}
-
-      <div className='container-fluid pt-4'>
-        <div className="row p-3">
-          <div className="col-md-5 d-flex  justify-content-center align-items-center">
-            <h1 id='nametitle'>Education</h1>
-
-
-          </div>
-          <div className="col-md-7 d-flex flex-column justify-content-center align-items-center">
-            <div><h3 className='mt-2'>jshdjhajsjda</h3>
-              <h4>shdjas</h4>
-              <h3>sjdaksjkdak</h3></div>
-            <div><h3 className='mt-2'>jshdjhajsjda</h3>
-              <h4>shdjas</h4>
-              <h3>sjdaksjkdak</h3></div>
-
-
-          </div>
-        </div>
-      </div>
       </div>
 
       {/* skills */}
       <div id='skills'>
-        <h1 id='nametitle' className='text-center pt-lg-5 pt-4 pb-lg-5 pb-4'> Skills</h1>
+        <h1 id='nametitle' className='text-center pt-lg-5 pt-4 pb-lg-4 pb-3'> Skills</h1>
         <div className='mt-lg-5 mt-3 pb-lg-5 pb-3 container-fluid'>
           <div className="row">
             <div className="col-md-1"></div>
@@ -236,7 +225,7 @@ function Homepage() {
                     Main Projects
                   </div>
                 </Link>
-                </div>
+              </div>
             </div>
 
           </div>
@@ -245,7 +234,7 @@ function Homepage() {
       </div>
 
 
-     
+
 
 
     </>
