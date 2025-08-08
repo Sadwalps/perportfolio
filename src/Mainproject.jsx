@@ -11,7 +11,7 @@ function Mainproject() {
     const handleShow = () => setShow(true);
     return (
         <>
-            <div className='container-fluid pt-4'>
+            <div className='container-fluid pt-4 pb-4' id='mainprojects'>
                 <h1 id='nametitle' className='text-center mt-lg-4 mt-3 mb-lg-4 mb-3'>Main Projects</h1>
                 <div className="row">
                     <div className="col-md-2"></div>

@@ -41,27 +41,38 @@ function Homepage() {
         <div className='container-fluid'>
           <div className="row">
             <div className="col-md-4" id='aboutleftdiv'>
-              <h1 id='nametitle'>SADWAL P.S</h1>
+              <h1 id='nametitle'>ABOUT</h1>
             </div>
             <div className='col-md-1'>
             </div>
             <div className="col-md-7 d-flex flex-column">
-              <div className='mt-5  border border-2 border-primary w-75 ' style={{ height: "40px", float: "right", borderRadius: "20px 0px 0px 20px" }}>
+              <div className='mt-4  border border-2 border-warning w-100' style={{ height: "40px", float: "right", borderRadius: "20px 20px 20px 20px" }}>
               </div>
               <div>
-                <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, delectus excepturi quisquam repellat ut dolorum nostrum quae illum repellendus odit, error voluptatem minus voluptatibus ex quas accusamus facilis dolores. Sequi corporis deleniti aspernatur consectetur officiis facere asperiores voluptate maiores ea?</p>
+                <p className='mt-4 text-light px-2' style={{ textAlign: "justify" }} >I’m a passionate and dedicated web developer with a strong foundation in computer science, holding a BSc in Computer Science. To further sharpen my skills and specialize in full-stack development, I completed an intensive MERN Stack course at Luminar Technolab, where I gained hands-on experience in building modern, responsive web applications.
+
+                  I'm now actively seeking opportunities to contribute to innovative development teams, grow professionally, and create impactful digital experiences using technologies like MongoDB, Express.js, React.js, and Node.js.
+
+                  I’m always eager to learn, collaborate, and take on new challenges in the world of web development.</p>
+              </div>
+              <div className='mt-5  border border-2 border-warning w-100' style={{ height: "40px", float: "right", borderRadius: "20px 20px 20px 20px" }}>
               </div>
 
               {/* Education section */}
 
               <div className='container-fluid pt-4 d-flex flex-column justify-content-center align-items-center '>
                 <h1 id='nametitle'>Education</h1>
-                <div><h3 className='mt-2'>jshdjhajsjda</h3>
-                  <h4>shdjas</h4>
-                  <h3>sjdaksjkdak</h3></div>
-                <div><h3 className='mt-2'>jshdjhajsjda</h3>
-                  <h4>shdjas</h4>
-                  <h3>sjdaksjkdak</h3></div>
+                <div className='text-center text-light'>
+                  <h4 className='text-warning'>COMPUTER SCIENCE</h4>
+                  <div ></div>
+                  <p >2019-2021</p>
+                  <p >ST. THOMAS HIGHER SECONDARY SCHOOL THOPE, THRISSUR</p></div>
+                <div className='text-center text-light mb-3'>
+                   <h4 className='text-warning mt-2'>BSC COMPUTER SCIENCE</h4>
+                        <div ></div>
+                        <p >2021-2024</p>
+                        <p >SRI C ACHUTHA MENON GOVERNMENT COLLEGE, THRISSUR</p>
+                  </div>
               </div>
             </div>
           </div>
