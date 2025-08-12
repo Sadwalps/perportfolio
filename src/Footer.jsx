@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <>
-    <div className='container-fluid' id='footermaindiv'>
+    <div className='container-fluid' id='footermaindiv' >
         <div className="row p-3 pt-lg-4 pt-3 ">
             <div className="col-md-1"></div>
             <div className="col-md-4 pt-lg-4 pt-3">

@@ -3,17 +3,18 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Carousel from 'react-bootstrap/Carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
-import Modal from 'react-bootstrap/Modal';
+
 import { useState } from 'react';
 import restaurant from './assets/Restaurant.png'
 import mobileShop from './assets/mobile-shop.png'
 import portfolio from './assets/portfolio.png'
 import library from './assets/library.png'
 import uberEats from './assets/uber-eats-clone.png'
+import Accordion from 'react-bootstrap/Accordion';
 
 function Mainproject() {
     const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
+
     const handleShow = () => setShow(true);
     return (
         <>
@@ -34,27 +35,25 @@ function Mainproject() {
                                 <div className="row">
                                     <div className="col-md-2"></div>
                                     <div className="col-md-8">
-                                        <div>
-                                            <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            {/* modal for displaying technologies used */}
-                                            <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
-                                                <Modal.Header closeButton>
-                                                    <div className='w-100 d-flex justify-content-center '>
-                                                        <h2>Technologies Used</h2>
-                                                    </div>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <div className='w-100 d-flex justify-content-center '>
+                                        <div >
+
+                                            {/* Accordion for displaying technologies used */}
+                                            <Accordion  >
+                                                <Accordion.Item eventKey="0">
+                                                    <Accordion.Header >
+                                                        Technologies used
+                                                    </Accordion.Header>
+                                                    <Accordion.Body className='technologiesaccordion'>
                                                         <ol>
-                                                            <li>skldas</li>
-                                                            <li>asda</li>
-                                                            <li>asd</li>
-                                                            <li>sadas</li>
-                                                            <li>asdas</li>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                            <li>Responsive using Media queries</li>
                                                         </ol>
-                                                    </div>
-                                                </Modal.Body>
-                                            </Modal>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+
+                                            </Accordion>
+
                                         </div>
                                         {/* image */}
                                         <div className='d-flex flex-column  justify-content-center align-items-center'>
@@ -84,26 +83,22 @@ function Mainproject() {
                                     <div className="col-md-2"></div>
                                     <div className="col-md-8">
                                         <div>
-                                            <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            {/* modal for displaying technologies used */}
-                                            <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
-                                                <Modal.Header closeButton>
-                                                    <div className='w-100 d-flex justify-content-center '>
-                                                        <h2>Technologies Used</h2>
-                                                    </div>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <div className='w-100 d-flex justify-content-center '>
+                                            {/* Accordion for displaying technologies used */}
+                                            <Accordion  >
+                                                <Accordion.Item eventKey="0">
+                                                    <Accordion.Header >
+                                                        Technologies used
+                                                    </Accordion.Header>
+                                                    <Accordion.Body className='technologiesaccordion'>
                                                         <ol>
-                                                            <li>skldas</li>
-                                                            <li>asda</li>
-                                                            <li>asd</li>
-                                                            <li>sadas</li>
-                                                            <li>asdas</li>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                            <li>bootstrap</li>
                                                         </ol>
-                                                    </div>
-                                                </Modal.Body>
-                                            </Modal>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+
+                                            </Accordion>
                                         </div>
                                         {/* image */}
                                         <div className='d-flex flex-column  justify-content-center align-items-center'>
@@ -134,26 +129,23 @@ function Mainproject() {
                                     <div className="col-md-2"></div>
                                     <div className="col-md-8">
                                         <div>
-                                            <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            {/* modal for displaying technologies used */}
-                                            <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
-                                                <Modal.Header closeButton>
-                                                    <div className='w-100 d-flex justify-content-center '>
-                                                        <h2>Technologies Used</h2>
-                                                    </div>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <div className='w-100 d-flex justify-content-center '>
+                                            {/* Accordion for displaying technologies used */}
+                                            <Accordion  >
+                                                <Accordion.Item eventKey="0">
+                                                    <Accordion.Header >
+                                                        Technologies used
+                                                    </Accordion.Header>
+                                                    <Accordion.Body className='technologiesaccordion'>
                                                         <ol>
-                                                            <li>skldas</li>
-                                                            <li>asda</li>
+                                                            <li>sdas</li>
                                                             <li>asd</li>
-                                                            <li>sadas</li>
-                                                            <li>asdas</li>
+                                                            <li>asd</li>
+                                                            <li>sada</li>
                                                         </ol>
-                                                    </div>
-                                                </Modal.Body>
-                                            </Modal>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+
+                                            </Accordion>
                                         </div>
                                         {/* image */}
                                         <div className='d-flex flex-column  justify-content-center align-items-center'>
@@ -184,26 +176,23 @@ function Mainproject() {
                                     <div className="col-md-2"></div>
                                     <div className="col-md-8">
                                         <div>
-                                            <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            {/* modal for displaying technologies used */}
-                                            <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
-                                                <Modal.Header closeButton>
-                                                    <div className='w-100 d-flex justify-content-center '>
-                                                        <h2>Technologies Used</h2>
-                                                    </div>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <div className='w-100 d-flex justify-content-center '>
+                                            {/* Accordion for displaying technologies used */}
+                                            <Accordion  >
+                                                <Accordion.Item eventKey="0">
+                                                    <Accordion.Header >
+                                                        Technologies used
+                                                    </Accordion.Header>
+                                                    <Accordion.Body className='technologiesaccordion'>
                                                         <ol>
-                                                            <li>skldas</li>
-                                                            <li>asda</li>
+                                                            <li>sdas</li>
                                                             <li>asd</li>
-                                                            <li>sadas</li>
-                                                            <li>asdas</li>
+                                                            <li>asd</li>
+                                                            <li>sada</li>
                                                         </ol>
-                                                    </div>
-                                                </Modal.Body>
-                                            </Modal>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+
+                                            </Accordion>
                                         </div>
                                         {/* image */}
                                         <div className='d-flex flex-column  justify-content-center align-items-center'>
@@ -234,31 +223,28 @@ function Mainproject() {
                                     <div className="col-md-2"></div>
                                     <div className="col-md-8">
                                         <div>
-                                            <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            {/* modal for displaying technologies used */}
-                                            <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
-                                                <Modal.Header closeButton>
-                                                    <div className='w-100 d-flex justify-content-center '>
-                                                        <h2>Technologies Used</h2>
-                                                    </div>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <div className='w-100 d-flex justify-content-center '>
+                                            {/* Accordion for displaying technologies used */}
+                                            <Accordion  >
+                                                <Accordion.Item eventKey="0">
+                                                    <Accordion.Header >
+                                                        Technologies used
+                                                    </Accordion.Header>
+                                                    <Accordion.Body className='technologiesaccordion'>
                                                         <ol>
-                                                            <li>skldas</li>
-                                                            <li>asda</li>
-                                                            <li>asd</li>
-                                                            <li>sadas</li>
-                                                            <li>asdas</li>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                            <li>React.js</li>
+                                                            <li>React bootstrap</li>
                                                         </ol>
-                                                    </div>
-                                                </Modal.Body>
-                                            </Modal>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+
+                                            </Accordion>
                                         </div>
                                         {/* image */}
                                         <div className='d-flex flex-column  justify-content-center align-items-center'>
                                             <div>
-                                                <img src={restaurant} alt="" className='w-100' />
+                                                <img src={library} alt="" className='w-100' />
                                             </div>
                                         </div>
                                         {/* buttons */}
@@ -284,31 +270,28 @@ function Mainproject() {
                                     <div className="col-md-2"></div>
                                     <div className="col-md-8">
                                         <div>
-                                            <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            {/* modal for displaying technologies used */}
-                                            <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
-                                                <Modal.Header closeButton>
-                                                    <div className='w-100 d-flex justify-content-center '>
-                                                        <h2>Technologies Used</h2>
-                                                    </div>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <div className='w-100 d-flex justify-content-center '>
+                                            {/* Accordion for displaying technologies used */}
+                                            <Accordion  >
+                                                <Accordion.Item eventKey="0">
+                                                    <Accordion.Header >
+                                                        Technologies used
+                                                    </Accordion.Header>
+                                                    <Accordion.Body className='technologiesaccordion'>
                                                         <ol>
-                                                            <li>skldas</li>
-                                                            <li>asda</li>
-                                                            <li>asd</li>
-                                                            <li>sadas</li>
-                                                            <li>asdas</li>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                            <li>React.js</li>
+                                                            <li>React bootstrap</li>
                                                         </ol>
-                                                    </div>
-                                                </Modal.Body>
-                                            </Modal>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+
+                                            </Accordion>
                                         </div>
                                         {/* image */}
                                         <div className='d-flex flex-column  justify-content-center align-items-center'>
                                             <div>
-                                                <img src={restaurant} alt="" className='w-100' />
+                                                <img src={uberEats} alt="" className='w-100' />
                                             </div>
                                         </div>
                                         {/* buttons */}
@@ -333,31 +316,28 @@ function Mainproject() {
                                     <div className="col-md-2"></div>
                                     <div className="col-md-8">
                                         <div>
-                                            <button className='btn btn-primary w-100' onClick={handleShow} >Technologies Used <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            {/* modal for displaying technologies used */}
-                                            <Modal show={show} onHide={handleClose} animation={false} size='lg' centered>
-                                                <Modal.Header closeButton>
-                                                    <div className='w-100 d-flex justify-content-center '>
-                                                        <h2>Technologies Used</h2>
-                                                    </div>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <div className='w-100 d-flex justify-content-center '>
+                                            {/* Accordion for displaying technologies used */}
+                                            <Accordion  >
+                                                <Accordion.Item eventKey="0">
+                                                    <Accordion.Header >
+                                                        Technologies used
+                                                    </Accordion.Header>
+                                                    <Accordion.Body className='technologiesaccordion'>
                                                         <ol>
-                                                            <li>skldas</li>
-                                                            <li>asda</li>
-                                                            <li>asd</li>
-                                                            <li>sadas</li>
-                                                            <li>asdas</li>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                            <li>React.js</li>
+                                                            <li>React bootstrap</li>
                                                         </ol>
-                                                    </div>
-                                                </Modal.Body>
-                                            </Modal>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+
+                                            </Accordion>
                                         </div>
                                         {/* image */}
                                         <div className='d-flex flex-column  justify-content-center align-items-center'>
                                             <div>
-                                                <img src={restaurant} alt="" className='w-100' />
+                                                <img src={portfolio} alt="" className='w-100' />
                                             </div>
                                         </div>
                                         {/* buttons */}
@@ -372,10 +352,6 @@ function Mainproject() {
                             <div className="col-md-2"></div>
                         </div>
                     </Carousel.Item>
-
-
-
-                    
 
                 </Carousel>
             </div>
