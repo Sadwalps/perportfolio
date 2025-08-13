@@ -10,6 +10,9 @@ import mobileShop from './assets/mobile-shop.png'
 import portfolio from './assets/portfolio.png'
 import library from './assets/library.png'
 import uberEats from './assets/uber-eats-clone.png'
+import bmiCalculator from './assets/bmi-calculator.png'
+import imgGallery from './assets/img-gallery.png'
+import weatherWatch from './assets/weather-watch.png'
 import Accordion from 'react-bootstrap/Accordion';
 
 function Mainproject() {
@@ -63,8 +66,8 @@ function Mainproject() {
                                         </div>
                                         {/* buttons */}
                                         <div className=' d-flex justify-content-between '>
-                                            <button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            <button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button>
+                                            <a href="https://startling-griffin-e8c4ad.netlify.app" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
+                                            <a href="https://github.com/Sadwalps/restaurant-website"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
                                     </div>
                                     <div className="col-md-2"></div>
@@ -108,8 +111,8 @@ function Mainproject() {
                                         </div>
                                         {/* buttons */}
                                         <div className=' d-flex justify-content-between '>
-                                            <button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            <button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button>
+                                            <a href="https://darling-axolotl-6566d4.netlify.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
+                                            <a href="https://github.com/Sadwalps/Mobile-shop-website"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
                                     </div>
                                     <div className="col-md-2"></div>
@@ -137,10 +140,10 @@ function Mainproject() {
                                                     </Accordion.Header>
                                                     <Accordion.Body className='technologiesaccordion'>
                                                         <ol>
-                                                            <li>sdas</li>
-                                                            <li>asd</li>
-                                                            <li>asd</li>
-                                                            <li>sada</li>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                            <li>bootstrap</li>
+                                                            <li>javaScript</li>
                                                         </ol>
                                                     </Accordion.Body>
                                                 </Accordion.Item>
@@ -150,60 +153,13 @@ function Mainproject() {
                                         {/* image */}
                                         <div className='d-flex flex-column  justify-content-center align-items-center'>
                                             <div>
-                                                <img src={restaurant} alt="" className='w-100' />
+                                                <img src={weatherWatch} alt="" className='w-100' />
                                             </div>
                                         </div>
                                         {/* buttons */}
                                         <div className=' d-flex justify-content-between '>
-                                            <button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            <button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-2"></div>
-                                </div>
-                            </div>
-                            <div className="col-md-2"></div>
-                        </div>
-                    </Carousel.Item>
-
-
-                    {/* bmi calculator */}
-                    <Carousel.Item>
-                        <div className="row">
-                            <div className="col-md-2"></div>
-                            <div className="col-md-8 ">
-                                <div className="row">
-                                    <div className="col-md-2"></div>
-                                    <div className="col-md-8">
-                                        <div>
-                                            {/* Accordion for displaying technologies used */}
-                                            <Accordion  >
-                                                <Accordion.Item eventKey="0">
-                                                    <Accordion.Header >
-                                                        Technologies used
-                                                    </Accordion.Header>
-                                                    <Accordion.Body className='technologiesaccordion'>
-                                                        <ol>
-                                                            <li>sdas</li>
-                                                            <li>asd</li>
-                                                            <li>asd</li>
-                                                            <li>sada</li>
-                                                        </ol>
-                                                    </Accordion.Body>
-                                                </Accordion.Item>
-
-                                            </Accordion>
-                                        </div>
-                                        {/* image */}
-                                        <div className='d-flex flex-column  justify-content-center align-items-center'>
-                                            <div>
-                                                <img src={restaurant} alt="" className='w-100' />
-                                            </div>
-                                        </div>
-                                        {/* buttons */}
-                                        <div className=' d-flex justify-content-between '>
-                                            <button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            <button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button>
+                                            <a href="https://weather-application-smoky-rho.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
+                                            <a href="https://github.com/Sadwalps/weather-application"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
                                     </div>
                                     <div className="col-md-2"></div>
@@ -249,8 +205,8 @@ function Mainproject() {
                                         </div>
                                         {/* buttons */}
                                         <div className=' d-flex justify-content-between '>
-                                            <button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            <button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button>
+                                            <a href="https://library-azure-seven.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
+                                            <a href="https://github.com/Sadwalps/library"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
                                     </div>
                                     <div className="col-md-2"></div>
@@ -296,8 +252,102 @@ function Mainproject() {
                                         </div>
                                         {/* buttons */}
                                         <div className=' d-flex justify-content-between '>
-                                            <button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            <button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button>
+                                            <a href="https://uber-eats-clone-omega.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
+                                            <a href="https://github.com/Sadwalps/uber-eats--clone"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-2"></div>
+                                </div>
+                            </div>
+                            <div className="col-md-2"></div>
+                        </div>
+                    </Carousel.Item>
+
+
+                    {/* bmi calculator */}
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-md-2"></div>
+                            <div className="col-md-8 ">
+                                <div className="row">
+                                    <div className="col-md-2"></div>
+                                    <div className="col-md-8">
+                                        <div>
+                                            {/* Accordion for displaying technologies used */}
+                                            <Accordion  >
+                                                <Accordion.Item eventKey="0">
+                                                    <Accordion.Header >
+                                                        Technologies used
+                                                    </Accordion.Header>
+                                                    <Accordion.Body className='technologiesaccordion'>
+                                                        <ol>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                            <li>React.js</li>
+                                                            <li>React bootstrap</li>
+                                                        </ol>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+
+                                            </Accordion>
+                                        </div>
+                                        {/* image */}
+                                        <div className='d-flex flex-column  justify-content-center align-items-center'>
+                                            <div>
+                                                <img src={bmiCalculator} alt="" className='w-100' />
+                                            </div>
+                                        </div>
+                                        {/* buttons */}
+                                        <div className=' d-flex justify-content-between '>
+                                            <a href="https://b-calculator.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
+                                            <a href="https://github.com/Sadwalps/b-calculator"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-2"></div>
+                                </div>
+                            </div>
+                            <div className="col-md-2"></div>
+                        </div>
+                    </Carousel.Item>
+
+                    {/* image gallery */}
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-md-2"></div>
+                            <div className="col-md-8 ">
+                                <div className="row">
+                                    <div className="col-md-2"></div>
+                                    <div className="col-md-8">
+                                        <div>
+                                            {/* Accordion for displaying technologies used */}
+                                            <Accordion  >
+                                                <Accordion.Item eventKey="0">
+                                                    <Accordion.Header >
+                                                        Technologies used
+                                                    </Accordion.Header>
+                                                    <Accordion.Body className='technologiesaccordion'>
+                                                        <ol>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                            <li>React.js</li>
+                                                            <li>React bootstrap</li>
+                                                            <li>json-server</li>
+                                                        </ol>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+
+                                            </Accordion>
+                                        </div>
+                                        {/* image */}
+                                        <div className='d-flex flex-column  justify-content-center align-items-center'>
+                                            <div>
+                                                <img src={imgGallery} alt="" className='w-100' />
+                                            </div>
+                                        </div>
+                                        {/* buttons */}
+                                        <div className=' d-flex justify-content-between '>
+                                            <a href="https://image-gallery-frontend-phi.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
+                                            <a href="https://github.com/Sadwalps/restaurant-website"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
                                     </div>
                                     <div className="col-md-2"></div>
@@ -342,8 +392,8 @@ function Mainproject() {
                                         </div>
                                         {/* buttons */}
                                         <div className=' d-flex justify-content-between '>
-                                            <button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button>
-                                            <button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button>
+                                            <a href="https://react-portfolio-one-bice.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
+                                            <a href="https://github.com/Sadwalps/react-portfolio"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
                                     </div>
                                     <div className="col-md-2"></div>
@@ -352,7 +402,6 @@ function Mainproject() {
                             <div className="col-md-2"></div>
                         </div>
                     </Carousel.Item>
-
                 </Carousel>
             </div>
         </>
