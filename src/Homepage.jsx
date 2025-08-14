@@ -2,26 +2,24 @@ import { faBootstrap, faCss3Alt, faGithub, faHtml5, faJs, faNodeJs, faReact } fr
 import { faEnvelope, faLink, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel';
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
 import { Link } from 'react-router-dom';
+import profilePhoto from './assets/profile pic.jpg'
+import tailwindlogo from './assets/tailwindlogo.png'
+import Header from './Header';
+import Footer from './Footer';
 
 function Homepage() {
 
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
   return (
     <>
+    <Header/>
       <div id='homepage' className='d-flex justify-content-center align-items-center p-2'>
         <div className='container-fluid'>
           <div className="row">
             <div className="col-md-2"></div>
             <div className="col-md-4">
-              <div className='w-100  rounded'><img src="https://th.bing.com/th/id/R.743da4010483966718352b50a77e4875?rik=AuKunWb6vuCbTA&riu=http%3a%2f%2fwww.zastavki.com%2fpictures%2foriginals%2f2017Auto___Lamborghini_Yellow_fast_car_Lamborghini_Aventador_Novitec_Torado_LP_750-4_117619_.jpg&ehk=42rlkbN1o4VYXZGvHslvexX5IDSXY7eCctEzdiIloXc%3d&risl=&pid=ImgRaw&r=0" alt="" className='w-100 rounded' /></div>
+              <div className='w-100  rounded'><img src={profilePhoto} alt="" className='w-100 rounded' /></div>
             </div>
             <div className="col-md-4 ps-5">
               <h2 className='text-light mt-lg-1 mt-4'>My Portfolio</h2>
@@ -194,13 +192,13 @@ function Homepage() {
                   <div className="col-lg-3  col-6 d-flex flex-column justify-content-center align-items-center">
                     {/* box */}
                     <div className='skillsbox'>
-                      <FontAwesomeIcon icon={faHtml5} />
+                      <img src={tailwindlogo} alt="" className='w-100'/>
                       <div className='skillhoverbox'>
-                        html
+                        Tailwind CSS
                       </div>
                     </div>
                     <div className='smallscreendiv'>
-                      <h6 style={{ fontWeight: "bold" }}>html</h6>
+                      <h6 style={{ fontWeight: "bold"}}>Tailwind CSS</h6>
                     </div>
                   </div>
 
@@ -243,6 +241,8 @@ function Homepage() {
           <div className="col-md-2"></div>
         </div>
       </div>
+
+      <Footer/>
 
 
 

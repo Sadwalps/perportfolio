@@ -68,7 +68,7 @@
 .skillsbox .skillhoverbox {
   position: absolute;
   display: none;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -128,16 +128,20 @@
 }
 
 /* mainprojects */
-#mainprojects{
-   background-image: linear-gradient(to right bottom, rgba(0, 0, 0), rgba(0, 0, 0, 0.837));
-   height: 90vh;
+#mainprojects {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0), rgba(0, 0, 0, 0.837));
+  height: 91vh;
 }
 
-.technologiesaccordion{
+.technologiesaccordion {
   background-image: linear-gradient(to bottom right, rgb(201, 84, 6), yellow);
   font-weight: bold;
   font-size: large;
   color: black;
+}
+
+.projectpageheader {
+  background-image: linear-gradient(to bottom right, rgb(201, 84, 6), yellow);
 }
 
 /* media queries */
@@ -164,6 +168,10 @@
     width: 130px;
   }
 
+  .skillsbox .skillhoverbox {
+    font-size: 22px;
+  }
+
 }
 
 @media screen and (max-width:456px) {
@@ -186,7 +194,12 @@
     height: 100px;
     width: 100px;
   }
-  #mainprojects{
-   height: 70vh;
-}
+
+  #mainprojects {
+    height: 80vh;
+  }
+
+  .skillsbox .skillhoverbox {
+    font-size: 15px;
+  }
 }

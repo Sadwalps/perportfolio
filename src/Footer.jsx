@@ -13,10 +13,9 @@ function Footer() {
             <div className="col-md-1"></div>
             <div className="col-md-5 d-flex justify-content-around align-items-center pt-lg-4 pt-3 pb-lg-4 pb-3">
               
-                <Link href="#about" id='nav' style={{textDecoration:"none"}}>About</Link>
-                <Link href="#skills" id='nav' style={{textDecoration:"none"}}>Skills</Link>
-                <Link href="#projects" id='nav' style={{textDecoration:"none"}}>Projects</Link>
-                
+                <a href="#about" id='nav' style={{textDecoration:"none"}}>About</a>
+               <a href="#skills" id='nav' style={{textDecoration:"none"}}>Skills</a>
+                <a href="#projects" id='nav' style={{textDecoration:"none"}}>Projects</a>
             </div>
             <div className="col-md-1"></div>
         </div>

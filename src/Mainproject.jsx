@@ -2,9 +2,7 @@ import React from 'react'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Carousel from 'react-bootstrap/Carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink } from '@fortawesome/free-solid-svg-icons'
-
-import { useState } from 'react';
+import { faArrowLeft, faLink } from '@fortawesome/free-solid-svg-icons'
 import restaurant from './assets/Restaurant.png'
 import mobileShop from './assets/mobile-shop.png'
 import portfolio from './assets/portfolio.png'
@@ -16,11 +14,19 @@ import weatherWatch from './assets/weather-watch.png'
 import Accordion from 'react-bootstrap/Accordion';
 
 function Mainproject() {
-    const [show, setShow] = useState(false);
-
-    const handleShow = () => setShow(true);
+   
     return (
         <>
+            <div className='projectpageheader container-fluid'>
+                <div className="row">
+                    <div className="col-3"></div>
+                    <div className="col-3"></div>
+                    <div className="col-3"></div>
+                    <div className="col-3 pe-3">
+                        <a href="/"> <button className='btn m-2 px-3' id='nav' style={{ float: "right" }}><FontAwesomeIcon icon={faArrowLeft} className='fa-2x' /></button></a>
+                    </div>
+                </div>
+            </div>
             <div className='container-fluid pt-4 pb-4' id='mainprojects'>
                 <h1 id='nametitle' className='text-center mt-lg-4 mt-3 mb-lg-4 mb-3'>Main Projects</h1>
                 <div className="row">
@@ -347,7 +353,7 @@ function Mainproject() {
                                         {/* buttons */}
                                         <div className=' d-flex justify-content-between '>
                                             <a href="https://image-gallery-frontend-phi.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
-                                            <a href="https://github.com/Sadwalps/restaurant-website"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
+                                            <a href="https://github.com/Sadwalps/image-gallery-frontend"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
                                     </div>
                                     <div className="col-md-2"></div>

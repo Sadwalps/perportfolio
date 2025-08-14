@@ -9,7 +9,7 @@ function Header() {
             <div style={{ position: "sticky", top: "0px", zIndex: "1" }}>
                 <Navbar id='navbar' data-bs-theme="dark">
                     <Container className='py-2'>
-                        <Navbar.Brand href="#home" id='nav' >SADWAL PS</Navbar.Brand>
+                        <Navbar.Brand href="#homepage" id='nav' >SADWAL PS</Navbar.Brand>
                         <Nav className="ms-auto">
                             <Nav.Link href="#about" id='nav'>About</Nav.Link>
                             <Nav.Link href="#skills" id='nav'>Skills</Nav.Link>
