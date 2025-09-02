@@ -20,10 +20,17 @@
   background-image: linear-gradient(to bottom right, black, rgba(0, 0, 0, 0.793));
 }
 
+.profileimg{
+  box-shadow: 0px 0px 7px rgb(255, 204, 0);
+}
+
 #nametitle {
   font-size: 70px;
   font-weight: bolder;
-  color: gold;
+    background-image: linear-gradient(to bottom right, rgb(201, 84, 6), yellow);
+  background-clip: text;
+  color: transparent;
+
 }
 
 /* aboutpage */
@@ -127,7 +134,7 @@
   background-image: linear-gradient(to bottom right, rgb(201, 84, 6), yellow);
 }
 
-/* mainprojects */
+/* projects */
 #mainprojects {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0), rgba(0, 0, 0, 0.837));
   height: 91vh;

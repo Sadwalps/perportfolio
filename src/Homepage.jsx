@@ -13,13 +13,13 @@ function Homepage() {
 
   return (
     <>
-    <Header/>
+      <Header />
       <div id='homepage' className='d-flex justify-content-center align-items-center p-2'>
         <div className='container-fluid'>
           <div className="row">
             <div className="col-md-2"></div>
             <div className="col-md-4">
-              <div className='w-100  rounded'><img src={profilePhoto} alt="" className='w-100 rounded' /></div>
+              <div className='w-100  rounded'><img src={profilePhoto} alt="" className='w-100 rounded profileimg' /></div>
             </div>
             <div className="col-md-4 ps-5">
               <h2 className='text-light mt-lg-1 mt-4'>My Portfolio</h2>
@@ -49,9 +49,11 @@ function Homepage() {
               <div>
                 <p className='mt-4 text-light px-2' style={{ textAlign: "justify" }} >I’m a passionate and dedicated web developer with a strong foundation in computer science, holding a BSc in Computer Science. To further sharpen my skills and specialize in full-stack development, I completed an intensive MERN Stack course at Luminar Technolab, where I gained hands-on experience in building modern, responsive web applications.
 
-                  I'm now actively seeking opportunities to contribute to innovative development teams, grow professionally, and create impactful digital experiences using technologies like MongoDB, Express.js, React.js, and Node.js.
+                  I'm now actively seeking opportunities to contribute to innovative development teams, grow professionally,
 
                   I’m always eager to learn, collaborate, and take on new challenges in the world of web development.</p>
+
+                {/* <span>and create impactful digital experiences using technologies like MongoDB, Express.js, React.js, and Node.js.</span>  */}
               </div>
               <div className='mt-5  border border-2 border-warning w-100' style={{ height: "40px", float: "right", borderRadius: "20px 20px 20px 20px" }}>
               </div>
@@ -66,11 +68,11 @@ function Homepage() {
                   <p >2019-2021</p>
                   <p >ST. THOMAS HIGHER SECONDARY SCHOOL THOPE, THRISSUR</p></div>
                 <div className='text-center text-light mb-3'>
-                   <h4 className='text-warning mt-2'>BSC COMPUTER SCIENCE</h4>
-                        <div ></div>
-                        <p >2021-2024</p>
-                        <p >SRI C ACHUTHA MENON GOVERNMENT COLLEGE, THRISSUR</p>
-                  </div>
+                  <h4 className='text-warning mt-2'>BSC COMPUTER SCIENCE</h4>
+                  <div ></div>
+                  <p >2021-2024</p>
+                  <p >SRI C ACHUTHA MENON GOVERNMENT COLLEGE, THRISSUR</p>
+                </div>
               </div>
             </div>
           </div>
@@ -192,13 +194,13 @@ function Homepage() {
                   <div className="col-lg-3  col-6 d-flex flex-column justify-content-center align-items-center">
                     {/* box */}
                     <div className='skillsbox'>
-                      <img src={tailwindlogo} alt="" className='w-100'/>
+                      <img src={tailwindlogo} alt="" className='w-100' />
                       <div className='skillhoverbox'>
                         Tailwind CSS
                       </div>
                     </div>
                     <div className='smallscreendiv'>
-                      <h6 style={{ fontWeight: "bold"}}>Tailwind CSS</h6>
+                      <h6 style={{ fontWeight: "bold" }}>Tailwind CSS</h6>
                     </div>
                   </div>
 
@@ -214,20 +216,12 @@ function Homepage() {
 
 
       {/* projects */}
-      <div className='container-fluid pb-5' id='projects'>
-        <h1 id='nametitle' className='text-center pt-lg-5 pt-4 pb-lg-5 pb-4'> Projects</h1>
+      <div className='container-fluid pb-5 ' id='projects'>
+        <h1 id='nametitle' className='text-center pt-lg-5 pt-5 pb-lg-5 pb-4'> Projects</h1>
         <div className="row">
           <div className="col-md-2"></div>
           <div className="col-md-8 ">
             <div className="row">
-              <div className="col-md-5 px-lg-1 px-5 ">
-                <Link to={'miniprojects'} className='text-dark' style={{ textDecoration: "none" }}>
-                  <div className='projectcategorydiv'>
-                    Mini Projects
-                  </div>
-                </Link>
-              </div>
-              <div className="col-md-2"></div>
               <div className="col-md-5 px-lg-1 px-5">
                 <Link to={'mainprojects'} className='text-dark' style={{ textDecoration: "none" }}>
                   <div className='projectcategorydiv' >
@@ -235,14 +229,23 @@ function Homepage() {
                   </div>
                 </Link>
               </div>
+
+              <div className="col-md-2"></div>
+              <div className="col-md-5 px-lg-1 px-5 mb-lg-5 mb-3">
+                <Link to={'miniprojects'} className='text-dark' style={{ textDecoration: "none" }}>
+                  <div className='projectcategorydiv'>
+                    Other Projects
+                  </div>
+                </Link>
+              </div>
             </div>
 
           </div>
-          <div className="col-md-2"></div>
+          <div className="col-md-2 "></div>
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
 
 
 

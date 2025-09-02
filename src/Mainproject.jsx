@@ -29,13 +29,8 @@ function Mainproject() {
             </div>
             <div className='container-fluid pt-4 pb-4' id='mainprojects'>
                 <h1 id='nametitle' className='text-center mt-lg-4 mt-3 mb-lg-4 mb-3'>Main Projects</h1>
-                <div className="row">
-                    <div className="col-md-2"></div>
-                    <div className="col-md-8 m-3 ">
-                    </div>
-                    <div className="col-md-2"></div>
-                </div>
-                <Carousel data-bs-theme="dark">
+                
+                <Carousel data-bs-theme="dark" className='mt-5'>
                     {/* restaurant */}
                     <Carousel.Item>
                         <div className="row">
