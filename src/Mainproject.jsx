@@ -12,6 +12,7 @@ import bmiCalculator from './assets/bmi-calculator.png'
 import imgGallery from './assets/img-gallery.png'
 import weatherWatch from './assets/weather-watch.png'
 import Accordion from 'react-bootstrap/Accordion';
+import { Link } from 'react-router-dom';
 
 function Mainproject() {
    
@@ -23,7 +24,7 @@ function Mainproject() {
                     <div className="col-3"></div>
                     <div className="col-3"></div>
                     <div className="col-3 pe-3">
-                        <a href="/"> <button className='btn m-2 px-3' id='nav' style={{ float: "right" }}><FontAwesomeIcon icon={faArrowLeft} className='fa-2x' /></button></a>
+                        <Link to={'/'} > <button className='btn m-2 px-3' id='nav' style={{ float: "right" }}><FontAwesomeIcon icon={faArrowLeft} className='fa-2x' /></button></Link>
                     </div>
                 </div>
             </div>

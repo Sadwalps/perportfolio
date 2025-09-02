@@ -3,6 +3,7 @@ import React from 'react'
 // import Carousel from 'react-bootstrap/Carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 // import restaurant from './assets/Restaurant.png'
 // import mobileShop from './assets/mobile-shop.png'
 // import portfolio from './assets/portfolio.png'
@@ -23,7 +24,7 @@ function Miniproject() {
                     <div className="col-3"></div>
                     <div className="col-3"></div>
                     <div className="col-3 pe-3">
-                        <a href="/"> <button className='btn m-2 px-3' id='nav' style={{ float: "right" }}><FontAwesomeIcon icon={faArrowLeft} className='fa-2x' /></button></a>
+                       <Link to={'/'} > <button className='btn m-2 px-3' id='nav' style={{ float: "right" }}><FontAwesomeIcon icon={faArrowLeft} className='fa-2x' /></button></Link>
                     </div>
                 </div>
             </div>
