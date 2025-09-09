@@ -218,7 +218,22 @@ function Homepage() {
       {/* projects */}
       <div className='container-fluid pb-5 ' id='projects'>
         <h1 id='nametitle' className='text-center pt-lg-5 pt-5 pb-lg-5 pb-4'> Projects</h1>
-        <div className="row">
+        {/*  */}
+        <div className='row mt-lg-4 mt-3  mb-lg-4 mb-3'>
+          <div className="col-md-2"></div>
+
+          <div className="col-md-8 px-lg-1 px-3">
+            <Link to={'mainprojects'} className='text-dark' style={{ textDecoration: "none" }}>
+              <div className='projectcategorydiv' >
+                Click here for the projects
+              </div>
+            </Link>
+          </div>
+
+          <div className="col-md-2"></div>
+        </div>
+
+        {/* <div className="row">
           <div className="col-md-2"></div>
           <div className="col-md-8 ">
             <div className="row">
@@ -242,7 +257,7 @@ function Homepage() {
 
           </div>
           <div className="col-md-2 "></div>
-        </div>
+        </div> */}
       </div>
 
       <Footer />

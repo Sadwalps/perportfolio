@@ -15,7 +15,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import { Link } from 'react-router-dom';
 
 function Mainproject() {
-   
+
     return (
         <>
             <div className='projectpageheader container-fluid'>
@@ -30,7 +30,7 @@ function Mainproject() {
             </div>
             <div className='container-fluid pt-4 pb-4' id='mainprojects'>
                 <h1 id='nametitle' className='text-center mt-lg-4 mt-3 mb-lg-4 mb-3'>Main Projects</h1>
-                
+
                 <Carousel data-bs-theme="dark" className='mt-5'>
                     {/* restaurant */}
                     <Carousel.Item>
@@ -67,7 +67,7 @@ function Mainproject() {
                                             </div>
                                         </div>
                                         {/* buttons */}
-                                        <div className=' d-flex justify-content-between '>
+                                        <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around '>
                                             <a href="https://startling-griffin-e8c4ad.netlify.app" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
                                             <a href="https://github.com/Sadwalps/restaurant-website"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
@@ -112,7 +112,7 @@ function Mainproject() {
                                             </div>
                                         </div>
                                         {/* buttons */}
-                                        <div className=' d-flex justify-content-between '>
+                                        <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around '>
                                             <a href="https://darling-axolotl-6566d4.netlify.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
                                             <a href="https://github.com/Sadwalps/Mobile-shop-website"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
@@ -159,7 +159,7 @@ function Mainproject() {
                                             </div>
                                         </div>
                                         {/* buttons */}
-                                        <div className=' d-flex justify-content-between '>
+                                        <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around '>
                                             <a href="https://weather-application-smoky-rho.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
                                             <a href="https://github.com/Sadwalps/weather-application"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
@@ -206,7 +206,7 @@ function Mainproject() {
                                             </div>
                                         </div>
                                         {/* buttons */}
-                                        <div className=' d-flex justify-content-between '>
+                                        <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around '>
                                             <a href="https://library-azure-seven.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
                                             <a href="https://github.com/Sadwalps/library"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
@@ -253,7 +253,7 @@ function Mainproject() {
                                             </div>
                                         </div>
                                         {/* buttons */}
-                                        <div className=' d-flex justify-content-between '>
+                                        <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around '>
                                             <a href="https://uber-eats-clone-omega.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
                                             <a href="https://github.com/Sadwalps/uber-eats--clone"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
@@ -300,7 +300,7 @@ function Mainproject() {
                                             </div>
                                         </div>
                                         {/* buttons */}
-                                        <div className=' d-flex justify-content-between '>
+                                        <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around '>
                                             <a href="https://b-calculator.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
                                             <a href="https://github.com/Sadwalps/b-calculator"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
@@ -347,7 +347,7 @@ function Mainproject() {
                                             </div>
                                         </div>
                                         {/* buttons */}
-                                        <div className=' d-flex justify-content-between '>
+                                        <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around'>
                                             <a href="https://image-gallery-frontend-phi.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
                                             <a href="https://github.com/Sadwalps/image-gallery-frontend"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
@@ -393,7 +393,7 @@ function Mainproject() {
                                             </div>
                                         </div>
                                         {/* buttons */}
-                                        <div className=' d-flex justify-content-between '>
+                                        <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around '>
                                             <a href="https://react-portfolio-one-bice.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
                                             <a href="https://github.com/Sadwalps/react-portfolio"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
