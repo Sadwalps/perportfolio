@@ -68,7 +68,7 @@ function Mainproject() {
                                         </div>
                                         {/* buttons */}
                                         <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around '>
-                                         <Link to={"https://startling-griffin-e8c4ad.netlify.app"}>   <button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></Link> 
+                                         <Link to={"https://startling-griffin-e8c4ad.netlify.app"}>   <button className='btn btn-danger' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></Link> 
                                             <a href="https://github.com/Sadwalps/restaurant-website"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
                                     </div>
