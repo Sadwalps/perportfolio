@@ -6,8 +6,11 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import profilePhoto from './assets/profile pic.jpg'
 import tailwindlogo from './assets/tailwindlogo.png'
+import mongodblogo from './assets/mongodblogo.png'
+import expresslogo from './assets/expresslogo.png'
 import Header from './Header';
 import Footer from './Footer';
+
 
 function Homepage() {
 
@@ -143,11 +146,7 @@ function Homepage() {
                       <h6 style={{ fontWeight: "bold" }}>JavaScript</h6>
                     </div>
                   </div>
-
-
-
                 </div>
-
 
                 {/* next row */}
                 <div className="row mt-lg-4 mt-2" >
@@ -206,6 +205,38 @@ function Homepage() {
 
 
                 </div>
+
+                {/* next row */}
+                <div className="row mt-lg-4 mt-2" >
+
+                  <div className="col-lg-3  col-6 d-flex flex-column justify-content-center align-items-center">
+                    {/* box */}
+                    <div className='skillsbox'>
+                      <img src={expresslogo} alt="" className='w-75' />
+
+                      <div className='skillhoverbox'>
+                        express.js
+                      </div>
+                    </div>
+                    <div className='smallscreendiv'>
+                      <h6 style={{ fontWeight: "bold" }}>express.js</h6>
+                    </div>
+                  </div>
+                  {/* next col */}
+                  <div className="col-lg-3 col-6 d-flex flex-column justify-content-center align-items-center">
+                    {/* box */}
+                    <div className='skillsbox'>
+                      <img src={mongodblogo} alt="" className='w-100' />
+                      <div className='skillhoverbox'>
+                        MongoDB
+                      </div>
+                    </div>
+                    <div className='smallscreendiv'>
+                      <h6 style={{ fontWeight: "bold" }}> MongoDB</h6>
+                    </div>
+                  </div>
+
+                </div>
               </div>
             </div>
             <div className="col-md-1"></div>
@@ -261,10 +292,6 @@ function Homepage() {
       </div>
 
       <Footer />
-
-
-
-
 
     </>
   )
