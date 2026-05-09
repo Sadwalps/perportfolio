@@ -11,6 +11,7 @@ import uberEats from './assets/uber-eats-clone.png'
 import bmiCalculator from './assets/bmi-calculator.png'
 import imgGallery from './assets/img-gallery.png'
 import weatherWatch from './assets/weather-watch.png'
+import recipeSharing from './assets/recipe-sharing.png'
 import Accordion from 'react-bootstrap/Accordion';
 import { Link } from 'react-router-dom';
 
@@ -29,7 +30,7 @@ function Mainproject() {
                 </div>
             </div>
             <div className='container-fluid pt-4 pb-4' id='mainprojects'>
-                <h1 id='nametitle' className='text-center mt-lg-4 mt-3 mb-lg-4 mb-3'>Main Projects</h1>
+                <h1 id='nametitle' className='text-center mt-lg-4 mt-3 mb-lg-4 mb-3'>Projects</h1>
 
                 <Carousel data-bs-theme="dark" className='mt-5'>
                     {/* restaurant */}
@@ -68,7 +69,7 @@ function Mainproject() {
                                         </div>
                                         {/* buttons */}
                                         <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around '>
-                                            <a href="https://startling-griffin-e8c4ad.netlify.app" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a> 
+                                            <a href="https://startling-griffin-e8c4ad.netlify.app" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
                                             <a href="https://github.com/Sadwalps/restaurant-website"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
                                         </div>
                                     </div>
@@ -124,7 +125,6 @@ function Mainproject() {
                         </div>
                     </Carousel.Item>
 
-
                     {/* weather */}
                     <Carousel.Item>
                         <div className="row">
@@ -170,7 +170,6 @@ function Mainproject() {
                             <div className="col-md-2"></div>
                         </div>
                     </Carousel.Item>
-
 
                     {/* library */}
                     <Carousel.Item>
@@ -218,7 +217,6 @@ function Mainproject() {
                         </div>
                     </Carousel.Item>
 
-
                     {/* uber eats clone */}
                     <Carousel.Item>
                         <div className="row">
@@ -264,7 +262,6 @@ function Mainproject() {
                             <div className="col-md-2"></div>
                         </div>
                     </Carousel.Item>
-
 
                     {/* bmi calculator */}
                     <Carousel.Item>
@@ -404,6 +401,55 @@ function Mainproject() {
                             <div className="col-md-2"></div>
                         </div>
                     </Carousel.Item>
+
+                    {/* recipe sharing */}
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-md-2"></div>
+                            <div className="col-md-8 ">
+                                <div className="row">
+                                    <div className="col-md-2"></div>
+                                    <div className="col-md-8">
+                                        <div>
+                                            {/* Accordion for displaying technologies used */}
+                                            <Accordion  >
+                                                <Accordion.Item eventKey="0">
+                                                    <Accordion.Header >
+                                                        Technologies used
+                                                    </Accordion.Header>
+                                                    <Accordion.Body className='technologiesaccordion'>
+                                                        <ol>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                            <li>React.js</li>
+                                                            <li>React bootstrap</li>
+                                                            <li>Node.js</li>
+                                                            <li>Express.js</li>
+                                                            <li>MongoDB</li>
+                                                        </ol>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+                                            </Accordion>
+                                        </div>
+                                        {/* image */}
+                                        <div className='d-flex flex-column  justify-content-center align-items-center'>
+                                            <div>
+                                                <img src={recipeSharing} alt="" className='w-100' />
+                                            </div>
+                                        </div>
+                                        {/* buttons */}
+                                        <div className=' d-flex justify-content-lg-between  justify-content-md-between  justify-content-around '>
+                                            <a href="https://recipe-sharing-platform-nine-pearl.vercel.app/" ><button className='btn btn-primary' >Live Link <FontAwesomeIcon icon={faLink} className='ms-1' /></button></a>
+                                            <a href="https://github.com/Sadwalps/recipe-sharing2"><button className='btn btn-success' >Git Hub <FontAwesomeIcon icon={faGithub} className='ms-1' /></button></a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-2"></div>
+                                </div>
+                            </div>
+                            <div className="col-md-2"></div>
+                        </div>
+                    </Carousel.Item>
+
                 </Carousel>
             </div>
         </>

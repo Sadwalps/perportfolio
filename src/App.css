@@ -1,3 +1,4 @@
+/* Header */
 #navbar {
   background-image: linear-gradient(to bottom right, rgb(201, 84, 6), yellow);
 }
@@ -177,14 +178,12 @@
   .skillsbox .skillhoverbox {
     font-size: 22px;
   }
-
 }
 
 @media screen and (max-width:456px) {
   #nametitle {
     font-size: 50px;
     font-weight: bolder;
-    
   }
 
   #homepage {

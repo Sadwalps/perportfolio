@@ -11,7 +11,6 @@ import expresslogo from './assets/expresslogo.png'
 import Header from './Header';
 import Footer from './Footer';
 
-
 function Homepage() {
 
   return (
@@ -212,7 +211,7 @@ function Homepage() {
                   <div className="col-lg-3  col-6 d-flex flex-column justify-content-center align-items-center">
                     {/* box */}
                     <div className='skillsbox'>
-                      <img src={expresslogo} alt="" className='w-75' />
+                      <img src="https://www.clementkoenig.fr/img/express.png" alt="" className='w-75' />
 
                       <div className='skillhoverbox'>
                         express.js
@@ -241,10 +240,8 @@ function Homepage() {
             </div>
             <div className="col-md-1"></div>
           </div>
-
         </div>
       </div>
-
 
       {/* projects */}
       <div className='container-fluid pb-5 ' id='projects'>
@@ -292,7 +289,6 @@ function Homepage() {
       </div>
 
       <Footer />
-
     </>
   )
 }
