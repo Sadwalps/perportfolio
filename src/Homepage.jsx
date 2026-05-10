@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import profilePhoto from './assets/profile pic.jpg'
 import tailwindlogo from './assets/tailwindlogo.png'
 import mongodblogo from './assets/mongodblogo.png'
-import expresslogo from './assets/expresslogo.png'
+import expresslogo from './assets/express.png'
 import Header from './Header';
 import Footer from './Footer';
 
@@ -211,8 +211,7 @@ function Homepage() {
                   <div className="col-lg-3  col-6 d-flex flex-column justify-content-center align-items-center">
                     {/* box */}
                     <div className='skillsbox'>
-                      <img src="https://www.clementkoenig.fr/img/express.png" alt="" className='w-75' />
-
+                      <img src={expresslogo} alt="" className='w-75' />
                       <div className='skillhoverbox'>
                         express.js
                       </div>
