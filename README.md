@@ -1,12 +1,52 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and modern personal portfolio website built to showcase my profile, skills, education, and projects with a smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Page Layout & Structure
 
-## Expanding the ESLint configuration
+###  Home Page (index.html)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. * Header & Navigation*
+   - *Branding:* Displays my name.
+   - *Quick Links:* Navigation links to smoothly scroll/jump to main sections (About, Skills, Projects).
+
+2. * Hero Section*
+   - *Profile Overview:* Features my profile photo and name in a clean, high-impact layout.
+
+3. * About & Details Section*
+   - *Background Info:* Detailed personal summary and background.
+   - * Education:* Includes complete educational qualifications and academic background.
+
+4. * Skills Section*
+   - *Interactive Cards:* Skills housed inside custom styled cards (<div>).
+   - *Interactive Hover/Drag:* Displays technology logos that reveal the skill name on drag/hover.
+
+5. * Projects Section (Home Preview)*
+   - Located at the bottom of the Home Page.
+   - Features a *"View All Projects"* button that navigates users directly to the dedicated *All Projects Page*.
+
+6. * Footer*
+   - Contains branding (Name) and fast navigation links matching the header.
+
+---
+
+###  All Projects Page
+
+A dedicated page showcasing all portfolio projects with rich details:
+
+- * Project Carousel:* Interactive carousel/slider allowing users to swipe or cycle through all completed projects.
+- * Technologies Used Dropdown:* Each project in the carousel includes a dropdown menu listing the specific technologies, tools, and libraries used.
+- * Quick Action Buttons:*
+  -  *GitHub Link:* Direct access to the project's source code repository.
+  -  *Live Demo Link:* Direct link to preview the live deployed application.
+
+---
+
+## Tech Stack
+
+- *Frontend:* HTML5, CSS3, JavaScript , react.js, react bootstrap.
+- *Icons & Styling:* FontAwesome / Devicon / Tailwind CSS (Update as needed)
+
+---
