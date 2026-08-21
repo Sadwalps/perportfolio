@@ -23,15 +23,13 @@ function Homepage() {
             <div className="col-md-4">
               <div className='w-100  rounded'><img src={profilePhoto} alt="" className='w-100 rounded profileimg' /></div>
             </div>
-            <div className="col-md-4 ps-5">
+            <div className="col-md-4 ps-5 d-flex flex-column justify-content-center align-items-center">
               <h2 className='text-light mt-lg-1 mt-4'>My Portfolio</h2>
-              <h1 id='nametitle'>SADWAL P.S</h1>           
+              <h1 id='nametitle'>SADWAL P.S</h1>
             </div>
             <div className="col-md-2"></div>
           </div>
         </div>
-
-
       </div>
 
       {/* about section */}
@@ -76,10 +74,7 @@ function Homepage() {
               </div>
             </div>
           </div>
-
         </div>
-
-
       </div>
 
       {/* skills */}
