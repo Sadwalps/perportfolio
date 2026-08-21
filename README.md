@@ -47,6 +47,6 @@ A dedicated page showcasing all portfolio projects with rich details:
 ## Tech Stack
 
 - *Frontend:* HTML5, CSS3, JavaScript , react.js, react bootstrap.
-- *Icons & Styling:* FontAwesome / Devicon / Tailwind CSS (Update as needed)
+- *Icons & Styling:* FontAwesome .
 
 ---

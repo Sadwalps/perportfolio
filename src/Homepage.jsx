@@ -25,9 +25,7 @@ function Homepage() {
             </div>
             <div className="col-md-4 ps-5">
               <h2 className='text-light mt-lg-1 mt-4'>My Portfolio</h2>
-              <h1 id='nametitle'>SADWAL P.S</h1>
-              <div className='text-light'><FontAwesomeIcon icon={faPhone} className='me-2' />9207281049</div>
-              <div className='mt-2 text-light'><FontAwesomeIcon icon={faEnvelope} className='me-2' />sadwalps2255@gmail.com</div>
+              <h1 id='nametitle'>SADWAL P.S</h1>           
             </div>
             <div className="col-md-2"></div>
           </div>
